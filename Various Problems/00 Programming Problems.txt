@@ -1,0 +1,2 @@
+1. Problem A
+Given an array with numbers, write a program that efficiently determines the nearest larger value of the chosen index.
