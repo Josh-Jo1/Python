@@ -1,2 +1,5 @@
 1. Problem A
 Given an array with numbers, write a program that efficiently determines the nearest larger value of the chosen index.
+
+2. Problem B
+Efficiently calculate the sum of the Fibonacci sequence from term 1 (zero) up to and including a given term.

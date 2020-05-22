@@ -5,35 +5,6 @@
 inputArray = [1,8,9,1,7,3,2,8]
 inputIndex = 0
 
-# Method 2
-# Finds distance left and right of chosen index simultaneously so that program will stop when larger value is found.
-
-if inputIndex >= 0 and inputIndex <= len(inputArray) - 1:
-    left = right = inputIndex
-    
-    while left >= 0 or right <= len(inputArray) - 1:
-        left -= 1
-        right += 1
-        if left >= 0:
-            if inputArray[left] > inputArray[inputIndex]: break
-        if right <= len(inputArray) - 1:
-            if inputArray[right] > inputArray[inputIndex]: break
-
-    if left < 0 and right > len(inputArray) - 1:
-        print("No larger value in array")
-    elif left < 0:
-        print(inputArray[right])
-    elif right > len(inputArray) - 1:
-        print(inputArray[left])
-    elif inputArray[left] < inputArray[right]:
-        print(inputArray[right])
-    else:
-        print(inputArray[left])
-else:
-    print("Chosen index not in array")
-
-########################################################################################################################
-
 # Method 1
 # Finds distance to a larger value left and right of the chosen index, separately.
 # Would be more efficient by checking left and right together and stop when larger value reached.
@@ -78,3 +49,32 @@ else:
 #         print(inputArray[inputIndex + right])
 # else:
 #     print("Chosen index not in array")
+
+########################################################################################################################
+
+# Method 2
+# Finds distance left and right of chosen index simultaneously so that program will stop when larger value is found.
+
+if inputIndex >= 0 and inputIndex <= len(inputArray) - 1:
+    left = right = inputIndex
+    
+    while left >= 0 or right <= len(inputArray) - 1:
+        left -= 1
+        right += 1
+        if left >= 0:
+            if inputArray[left] > inputArray[inputIndex]: break
+        if right <= len(inputArray) - 1:
+            if inputArray[right] > inputArray[inputIndex]: break
+
+    if left < 0 and right > len(inputArray) - 1:
+        print("No larger value in array")
+    elif left < 0:
+        print(inputArray[right])
+    elif right > len(inputArray) - 1:
+        print(inputArray[left])
+    elif inputArray[left] < inputArray[right]:
+        print(inputArray[right])
+    else:
+        print(inputArray[left])
+else:
+    print("Chosen index not in array")
