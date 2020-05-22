@@ -3,8 +3,6 @@
 # Fibonacci sequence: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55
 # Sum of sequence: 0, 1, 2, 4, 7, 12, 20, 33, 54, 88, 143
 
-# put approx near method number, prep for upload
-
 # Input an integer to find the sum till that term. Input a letter to end the program.
 inputTerm = input()
 
