@@ -1,7 +1,7 @@
 # Problem A
 # Given an array with numbers, write a program that efficiently determines the nearest larger value of the chosen index.
 
-# To save time, add inputs here before running program
+# To save time, add inputs here before running program.
 inputArray = [1,8,9,1,7,3,2,8]
 inputIndex = 0
 
