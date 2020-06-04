@@ -29,8 +29,6 @@ from random import uniform
 # The number of points inside the circle divided by the total points represents the area of the quarter circle.
 # The area calculated multiplied by 4 will yield an approximation for pi.
 
-from math import sqrt
-
 loops = 1000000
 inside = 0
 
@@ -38,7 +36,7 @@ for i in range(loops):
     x = uniform(0,1)
     y = uniform(0,1)
 
-    l = sqrt(x**2 + y**2)   # sqrt not needed
+    l = x**2 + y**2     # sqrt not needed since sqrt of number <1 is still <1, which is same for >1
     if l <= 1:
         inside += 1
 
