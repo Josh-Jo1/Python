@@ -24,7 +24,7 @@ from random import uniform
 # After doing some research, I found a way to calculate pi without any other functions (like inverse cos from before).
 # Consider: https://www.stealthcopter.com/blog/wp-content/uploads/2009/09/pypi2.png.
 # The area of the quarter circle and the square have a pi/4 : 1 ratio.
-# Each random point is either in the circle and sqaure (a in picture) or only the square (b in picture).
+# Each random point is either in the circle and sqaure (point a in picture) or only the square (point b in picture).
 # The number of points inside the circle divided by the total points represents the area of the quarter circle.
 # The area calculated multiplied by 4 will yield an approximation for pi.
 
