@@ -6,8 +6,7 @@ from random import uniform
 # Method 1
 # Since cos(pi) = 1, inverse cos(1) = pi
 
-
-# from math import acos       #inverse cosine
+# from math import acos       # inverse cosine
 
 # pi = 0
 
