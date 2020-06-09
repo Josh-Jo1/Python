@@ -9,7 +9,7 @@ while(myInput.upper() == "Y"):
     # example: 560943 3 43
     line = dataFile.readline()
 
-    if line == "end":
+    if line == "End":
         print("Data completed")
         break
 
@@ -30,7 +30,7 @@ while(myInput.upper() == "Y"):
     # used while loops instead of for loops for ability to restart loop from beginning
 
     # zeroes at beginning are advantageous since removing numbers prior to them also removes leading 0
-    # example: 2302349, k = 2 would make smallest new number 62349
+    # example: 23062349, k = 2 would make smallest new number 62349
     i = 0
     while i < k and i < len(digits):
         if digits[i] == 0:
