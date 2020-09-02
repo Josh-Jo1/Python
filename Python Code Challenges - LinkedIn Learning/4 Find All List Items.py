@@ -9,10 +9,12 @@ def findListItems(strList, indexList, index, item):
         elif strList[i] == item:
             indexList.append(index + [i])
 
-inputList = [[1, 2, 3, 4], 1, 2, 3, [4, 5, 2]]
-searchItem = 2
+inputList = eval(input())
+searchItem = input()
 
-# Also works for list of strings:
+# inputList = [[1, 2, 3, 4], 1, 2, 3, [4, 5, 2]]
+# searchItem = 2
+
 # inputList = [["hi", "hello"], "hola", ["bonjour", "salut"], "hello"]
 # searchItem = "hello"
 
