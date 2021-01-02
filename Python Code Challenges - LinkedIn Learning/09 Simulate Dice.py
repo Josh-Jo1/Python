@@ -1,6 +1,6 @@
 # Challenge: Write a Python function to determine the probability of certain outcomes when rolling dice.
 # Must use Monte Carlo Method - 1,000,000 simulations
-# Input: variable number of arguments for sides of dice; Output: table of probability for each possible outcome
+# Input: variable number of arguments for sides of dice;   Output: table of probability for each possible outcome
 
 
 # While coding this function, the main problem I faced was runtime. The provided solution seemed to work very quickly in the video,

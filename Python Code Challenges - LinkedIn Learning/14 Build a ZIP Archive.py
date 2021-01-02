@@ -1,5 +1,5 @@
 # Challenge: Write a Python function to build a ZIP archive.
-# Input: input directory path, list of file extensions, output file path; Output: ZIP file
+# Input: input directory path, list of file extensions, output file path;   Output: ZIP file
 
 import os
 from zipfile import ZipFile

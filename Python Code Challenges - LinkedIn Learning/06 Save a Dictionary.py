@@ -4,7 +4,7 @@
 
 # Load Function
 # Challenge: Write a Python function to load the saved dictionary back into Python.
-# Input: file path to saved dictionary; Output: retrieved dictionary object
+# Input: file path to saved dictionary;   Output: retrieved dictionary object
 
 def SaveFunction(dictInput, path):
     file = open(path, 'w')

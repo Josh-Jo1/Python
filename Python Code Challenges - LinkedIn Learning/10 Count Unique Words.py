@@ -1,9 +1,9 @@
-# Challenge: Write a Python function to count the number of unique words and how often each occurs
+# Challenge: Write a Python function to count the number of unique words and how often each occurs.
 # Input: path to a text file
 # Output: print message with: - total number of words
 #                             - top 20 most frequent words
 #                             - number of occurrences for top 20
-# Ignore case ("The" == "the"), Words contain: letters, numbers, apostrophes, and hyphens
+# Ignore case ("The" == "the"), words contain: letters, numbers, apostrophes, and hyphens
 
 from re import findall
 from collections import Counter
@@ -30,4 +30,4 @@ def countWords(path):
 
     data.close()
 
-countWords("10 Count Unique Words - data.txt")
+countWords("10 data.txt")

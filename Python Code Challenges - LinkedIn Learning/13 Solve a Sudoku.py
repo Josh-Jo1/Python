@@ -29,9 +29,9 @@ def validNumber(puzzle, row, col):
         
         if valid:
             if num == 0: num = x
-            else: return 0              # if multiple values possible in same box, return 0 and check again next loop
+            else: return 0              # if multiple values possible in same square, return 0 and check again next loop
 
-    return num      # this will be reached when only 1 value can be placed in a box
+    return num      # this will be reached when only 1 value can be placed in a sqaure
 
 
 def solveSudoku(puzzle):

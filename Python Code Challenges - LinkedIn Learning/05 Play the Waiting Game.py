@@ -1,18 +1,18 @@
 # Challenge specified in LinkedinIn video. Refer to README file for more information.
 
 from random import randint
-import time
+from time import time
 
 def WaitingGame():
     target = randint(2,4)
     print("Your target time is {} seconds.".format(target))
     
     input(" ---Press Enter to Begin--- ")
-    start = time.time()
+    start = time()
 
     input("\n...Press Enter again after {} seconds...".format(target))
 
-    elapsedTime = round(time.time() - start, 3)
+    elapsedTime = round(time() - start, 3)
     targetMiss = round(elapsedTime - target, 3)
     targetMissMessage = ""
 

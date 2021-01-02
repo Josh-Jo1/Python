@@ -1,5 +1,5 @@
 # Challenge: Write a Python function to find all prime factors.
-# Input: integer value; Output: list of prime factors
+# Input: integer value;   Output: list of prime factors
 
 def PrimeFactorization(intInput):
     factor = 2
@@ -15,4 +15,5 @@ def PrimeFactorization(intInput):
     return primeFactors
 
 integer = int(input())
+
 print(PrimeFactorization(integer))

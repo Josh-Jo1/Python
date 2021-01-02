@@ -1,5 +1,5 @@
 # Challenge: Write a Python function to merge multiple CSV files.
-# Input: list of input files, output file path; Output: new merged CSV file
+# Input: list of input files, output file path;   Output: new merged CSV file
 
 import csv
 
@@ -30,7 +30,7 @@ def mergeCSV(files, outFile):
                 for row in reader:
                     writer.writerow(row)
 
-mergeCSV(["12 Merge CSV Files - File 1.csv", "12 Merge CSV Files - File 2.csv"], "merged.csv")
+mergeCSV(["12 file 1.csv", "12 file 2.csv"], "merged.csv")
 
 
 # Relied on provided solution for writing rows

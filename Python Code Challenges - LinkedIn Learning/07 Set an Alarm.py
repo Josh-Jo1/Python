@@ -21,7 +21,7 @@ alarmTime = datetime.strptime(str(datetime.now().date()) + " " + input(), "%Y-%m
 soundFile = input()
 message = input()
 # alarmTime = datetime.strptime(str(datetime.now().date()) + " 17:38", "%Y-%m-%d %H:%M")
-# soundFile = "7 Set an Alarm - sound.wav"
+# soundFile = "7 sound.wav"
 # message = "Wake Up!"
 
 alarm(alarmTime, soundFile, message)

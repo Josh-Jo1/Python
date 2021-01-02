@@ -1,5 +1,5 @@
 # Challenge: Write a Python function to determine if a given string is a palindrome.
-# Input: string to evaluate; Output: Boolean value
+# Input: string to evaluate;   Output: Boolean value
 # Only consider letters (a-z), ignore case ('A' == 'a')
 
 def isPalindrome(strInput):

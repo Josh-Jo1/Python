@@ -1,5 +1,5 @@
 # Challenge: Write a Python function to index all items in a list.
-# Input: list to search, value to search for; Output: list of indices
+# Input: list to search, value to search for;   Output: list of indices
 # Keep in mind that lists can contain other lists
 
 def findListItems(strList, indexList, index, item):

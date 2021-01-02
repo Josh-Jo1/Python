@@ -3,7 +3,7 @@
 # Provided example: http://699340.youcanlearnit.net/image001.jpg to http://699340.youcanlearnit.net/image050.jpg
 
 # Assume last 3 characters before extension are always numbers for sequence
-# Assume last 3 characters are always extension
+# Assume last 4 characters are always extension
 
 
 import requests
