@@ -12,3 +12,10 @@ Given a non-negative integer, remove k digits from the number so that the new nu
 
 5. Problem E - N Queens Puzzle
 Given a positive integer N, place N queens on an N*N chessboard such that no two queens attack each other. Return all possible solutions.
+
+6. Problem F - Regular Expression Matching
+From Leetcode
+Given a string (s) and a pattern (p), implement regular expression matching with support for '.' and '*' where: 
+    '.' matches any single character
+    '*' matches zero or more of the preceding character
+The matching should cover the entire input string (not partial).
